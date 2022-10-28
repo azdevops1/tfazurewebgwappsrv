@@ -1,17 +1,3 @@
-# Configure the Azure provider
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~> 3.9.0" #3.0.2
-    }
-  }
-  required_version = ">= 0.14.9"
-}
-provider "azurerm" {
-  features {}
-}
-
 # Generate a random integer to create a globally unique name
 resource "random_integer" "ri" {
   min = 10000
