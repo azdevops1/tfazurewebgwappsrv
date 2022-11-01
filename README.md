@@ -1,2 +1,2 @@
 # Terraform Deployment:
-# Azure Web App Service fronted by Web Application Gateway
+# Azure Linux Web App Service fronted by Web Application Gateway
